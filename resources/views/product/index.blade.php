@@ -10,7 +10,7 @@
         <section>
             <div>
                 <aside
-                    class="ml-[-100%] fixed z-10 top-0 pb-3 px-6 w-full flex flex-col justify-between h-screen border-r bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]"
+                    class="backdrop-blur ml-[-100%] shadow-xl fixed z-10 top-0 pb-3 px-6 w-full flex flex-col justify-between h-screen border-r bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]"
                 >
                     <div>
                         <div class="-mx-6 px-6 py-4">
@@ -44,7 +44,7 @@
                                 <a
                                     href="#"
                                     aria-label="dashboard"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
                                 >
                                     <svg
                                         class="-ml-1 h-6 w-6"
@@ -72,7 +72,7 @@
                             <li>
                                 <a
                                     href="#"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@
                             <li>
                                 <a
                                     href="#"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@
                             <li>
                                 <a
                                     href="#"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@
                             <li>
                                 <a
                                     href="#"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -182,7 +182,7 @@
                         class="px-6 -mx-6 pt-4 flex justify-between items-center border-t"
                     >
                         <button
-                            class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
+                            class="px-4 py-3 w-56 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-orange-600 to-rose-400"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -210,10 +210,9 @@
                         class="sticky z-10 top-0 h-16 border-b bg-white lg:py-2.5"
                     >
                         <div
-                            class="px-6 flex items-center justify-between space-x-4 2xl:container"
+                            class="px-6 flex items-center shadow-lg pb-3 justify-between space-x-4 2xl:container"
                         >
                             <h5
-                                hidden
                                 class="text-2xl text-gray-600 font-medium lg:block"
                             >
                                 Dashboard
@@ -319,12 +318,12 @@
                         </div>
                     </div>
 
-                    <main>
+                    <main class="bg-gray-50">
                     <div class="px-6 pt-6 2xl:container">
                         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <div class="md:col-span-2 lg:col-span-1">
                                 <div
-                                    class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white"
+                                    class="h-full py-8 px-6 space-y-6 rounded-md hover:shadow-2xl shadow-lg bg-gradient-to-r from-orange-600 to-yellow-400 cursor-pointer"
                                 >
                                     <svg
                                         class="w-40 m-auto opacity-75"
@@ -438,7 +437,7 @@
                                     </svg>
                                     <div>
                                         <h5
-                                            class="text-xl text-gray-600 text-center"
+                                            class="text-xl text-gray-800 text-center"
                                         >
                                             Global Activities
                                         </h5>
@@ -468,7 +467,7 @@
                                             </div>
                                         </div>
                                         <span
-                                            class="block text-center text-gray-500"
+                                            class="block text-center text-gray-700"
                                             >Compared to last week $13,988</span
                                         >
                                     </div>
@@ -692,18 +691,18 @@
                             </div>
                             <div>
                                 <div
-                                    class="h-full py-6 px-6 rounded-xl border border-gray-200 bg-white"
+                                    class="h-full py-6 px-6 rounded-md shadow-lg hover:shadow-2xl bg-gradient-to-r from-cyan-600 to-blue-400 cursor-pointer"
                                 >
-                                    <h5 class="text-xl text-gray-700">
-                                        Downloads
+                                    <h5 class="text-xl text-gray-700 text-center">
+                                        Reviews
                                     </h5>
-                                    <div class="my-8">
+                                    <div class="my-8 text-center">
                                         <h1
                                             class="text-5xl font-bold text-gray-800"
                                         >
-                                            64,5%
+                                            64.5%
                                         </h1>
-                                        <span class="text-gray-500"
+                                        <span class="text-gray-800"
                                             >Compared to last week $13,988</span
                                         >
                                     </div>
@@ -910,7 +909,7 @@
                             </div>
                             <div>
                                 <div
-                                    class="lg:h-full py-8 px-6 text-gray-600 rounded-xl border border-gray-200 bg-white"
+                                    class="lg:h-full py-8 px-6 text-gray-600 rounded-md shadow-xl hover:shadow-2xl bg-gradient-to-r from-pink-600 to-purple-500 cursor-pointer"
                                 >
                                     <svg
                                         class="w-40 m-auto"
@@ -990,19 +989,19 @@
                                             </div>
                                         </div>
                                         <span
-                                            class="block text-center text-gray-500"
+                                            class="block text-center text-gray-700"
                                             >Compared to last week 13</span
                                         >
                                     </div>
                                     <table
-                                        class="mt-6 -mb-2 w-full text-gray-600"
+                                        class="mt-6 -mb-2 w-full text-gray-900"
                                     >
                                         <tbody>
                                             <tr>
                                                 <td class="py-2">
                                                     Tailored ui
                                                 </td>
-                                                <td class="text-gray-500">
+                                                <td class="text-gray-700">
                                                     896
                                                 </td>
                                                 <td>
@@ -1072,7 +1071,7 @@
                                             </tr>
                                             <tr>
                                                 <td class="py-2">Customize</td>
-                                                <td class="text-gray-500">
+                                                <td class="text-gray-700">
                                                     1200
                                                 </td>
                                                 <td>
@@ -1142,7 +1141,7 @@
                                             </tr>
                                             <tr>
                                                 <td class="py-2">Other</td>
-                                                <td class="text-gray-500">
+                                                <td class="text-gray-700">
                                                     12
                                                 </td>
                                                 <td>
@@ -1224,7 +1223,7 @@
                             class="mt-4 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"
                         >
                             <div
-                                class="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8"
+                                class="bg-white hover:shadow-2xl rounded-md shadow-lg p-4 sm:p-6 xl:p-8 cursor-pointer"
                             >
                                 <div class="flex items-center">
                                     <div class="flex-shrink-0">
@@ -1258,7 +1257,7 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8"
+                                class="bg-white hover:shadow-2xl rounded-md shadow-lg p-4 sm:p-6 xl:p-8 cursor-pointer"
                             >
                                 <div class="flex items-center">
                                     <div class="flex-shrink-0">
@@ -1292,7 +1291,7 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8"
+                                class="bg-white hover:shadow-2xl rounded-md shadow-lg p-4 sm:p-6 xl:p-8 cursor-pointer"
                             >
                                 <div class="flex items-center">
                                     <div class="flex-shrink-0">
@@ -1330,7 +1329,7 @@
                             class="grid grid-cols-1 2xl:grid-cols-2 xl:gap-4 my-4"
                         >
                             <div
-                                class="bg-white shadow rounded-lg mb-4 p-4 sm:p-6 h-full"
+                                class="bg-white hover:shadow-2xl rounded-md shadow-lg mb-4 p-4 sm:p-6 h-full"
                             >
                                 <div
                                     class="flex items-center justify-between mb-4"
@@ -1354,7 +1353,7 @@
                                     >
                                         <li class="py-3 sm:py-4">
                                             <div
-                                                class="flex items-center space-x-4"
+                                                class="bg-white px-3 py-4 flex items-center space-x-4 hover:shadow-xl rounded-md shadow-md cursor-pointer"
                                             >
                                                 <div class="flex-shrink-0">
                                                     <img
@@ -1389,7 +1388,7 @@
                                         </li>
                                         <li class="py-3 sm:py-4">
                                             <div
-                                                class="flex items-center space-x-4"
+                                                class="bg-white px-3 py-4 flex items-center space-x-4 hover:shadow-xl rounded-md shadow-md cursor-pointer"
                                             >
                                                 <div class="flex-shrink-0">
                                                     <img
@@ -1424,7 +1423,7 @@
                                         </li>
                                         <li class="py-3 sm:py-4">
                                             <div
-                                                class="flex items-center space-x-4"
+                                                class="bg-white px-3 py-4 flex items-center space-x-4 hover:shadow-xl rounded-md shadow-md cursor-pointer"
                                             >
                                                 <div class="flex-shrink-0">
                                                     <img
@@ -1459,7 +1458,7 @@
                                         </li>
                                         <li class="py-3 sm:py-4">
                                             <div
-                                                class="flex items-center space-x-4"
+                                                class="bg-white px-3 py-4 flex items-center space-x-4 hover:shadow-xl rounded-md shadow-md cursor-pointer"
                                             >
                                                 <div class="flex-shrink-0">
                                                     <img
@@ -1494,7 +1493,7 @@
                                         </li>
                                         <li class="pt-3 sm:pt-4 pb-0">
                                             <div
-                                                class="flex items-center space-x-4"
+                                                class="bg-white px-3 py-4 flex items-center space-x-4 hover:shadow-xl rounded-md shadow-md cursor-pointer"
                                             >
                                                 <div class="flex-shrink-0">
                                                     <img
@@ -1531,7 +1530,7 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8"
+                                class="bg-white shadow-lg hover:shadow-2xl rounded-md p-4 sm:p-6 xl:p-8"
                             >
                                 <h3
                                     class="text-xl leading-none font-bold text-gray-900 mb-10"
@@ -1797,7 +1796,7 @@
                 </main>
 
                     <footer
-                        class="bg-white md:flex md:items-center md:justify-between shadow rounded-lg p-4 md:p-6 xl:p-8 my-6 mx-4"
+                        class="bg-white md:flex md:items-center md:justify-between shadow-xl rounded-md p-4 md:p-6 xl:p-8 my-6 mx-4"
                     >
                         <ul class="flex items-center flex-wrap mb-6 md:mb-0">
                             <li>
@@ -1923,9 +1922,9 @@
                         </div>
                     </footer>
                     <p class="text-center text-sm text-gray-500 my-10">
-                        &copy; 2019-2021
-                        <a href="#" class="hover:underline" target="_blank"
-                            >Themesberg</a
+                        &copy; 2023
+                        <a href="https://traximtech.com/index.php" class="hover:underline" target="_blank"
+                            >Traxim Technologies</a
                         >. All rights reserved.
                     </p>
                 </div>
