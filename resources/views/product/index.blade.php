@@ -25,14 +25,14 @@
 
                         <div class="mt-8 text-center">
                             <img
-                                src="https://tailus.io/sources/blocks/stats-cards/preview/images/second_user.webp"
+                                src="https://avatars.githubusercontent.com/u/35036926?v=4"
                                 alt=""
                                 class="w-10 h-10 m-auto rounded-full object-cover lg:w-28 lg:h-28"
                             />
                             <h5
                                 class="hidden mt-4 text-xl font-semibold text-gray-600 lg:block"
                             >
-                                Cynthia J. Watts
+                                Azeem Ali
                             </h5>
                             <span class="hidden text-gray-400 lg:block"
                                 >Admin</span
@@ -44,7 +44,7 @@
                                 <a
                                     href="#"
                                     aria-label="dashboard"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-blue-400"
                                 >
                                     <svg
                                         class="-ml-1 h-6 w-6"
@@ -71,8 +71,8 @@
                             </li>
                             <li>
                                 <a
-                                    href="#"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    href="product/create"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-blue-400"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -92,14 +92,14 @@
                                         />
                                     </svg>
                                     <span class="group-hover:text-gray-700"
-                                        >Categories</span
+                                        >Create</span
                                     >
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    href="product/store"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-blue-400"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -119,14 +119,14 @@
                                         />
                                     </svg>
                                     <span class="group-hover:text-gray-700"
-                                        >Reports</span
+                                        >Listing</span
                                     >
                                 </a>
                             </li>
                             <li>
                                 <a
                                     href="#"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-blue-400"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@
                             <li>
                                 <a
                                     href="#"
-                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-cyan-400"
+                                    class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-blue-400"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -691,7 +691,7 @@
                             </div>
                             <div>
                                 <div
-                                    class="h-full py-6 px-6 rounded-md shadow-lg hover:shadow-2xl bg-gradient-to-r from-cyan-600 to-blue-400 cursor-pointer"
+                                    class="h-full rounded-md shadow-lg hover:shadow-2xl bg-gradient-to-r from-cyan-600 to-teal-400 cursor-pointer"
                                 >
                                     <h5 class="text-xl text-gray-700 text-center">
                                         Reviews
