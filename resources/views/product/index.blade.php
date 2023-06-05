@@ -98,7 +98,7 @@
                             </li>
                             <li>
                                 <a
-                                    href="product/store"
+                                    href="product/listing"
                                     class="px-4 py-3 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-sky-600 to-blue-400"
                                 >
                                     <svg

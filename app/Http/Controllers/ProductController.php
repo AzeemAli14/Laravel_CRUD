@@ -17,6 +17,11 @@ class ProductController extends Controller
         return view('product.create');
     }
 
+    public function listing()
+    {
+        return view('product.listing', ['product' => Product::get()]);
+    }
+
     public function store(Request $request)
     {
         //Form Validation
@@ -27,14 +32,15 @@ class ProductController extends Controller
         ]);
 
         //Enteries Upload
-        $imageName = time().'.'.$request->image->extension();
-        $request->image->move(public_path('product'), $imageName);
-        $product = new Product();
-        $product->name = $request->name;
-        $product->description = $request->description;
-        $product->image = $imageName;
-        $product->save();
+        // $imageName = time().'.'.$request->image->extension();
+        // $request->image->move(public_path('product'), $imageName);
+        // $product = new Product();
+        // $product->name = $request->name;
+        // $product->description = $request->description;
+        // $product->image = $imageName;
+        // $product->save();
+        dd($request->all());
         // return redirect()->route('product.index');
-        return back()->withSuccess('Product Added Successfully');
+        // return redirect('/product/listing')->withSuccess('Product Added Successfully');
     }
 }

@@ -208,7 +208,7 @@
                             <li class="mb-1">
                                 <a
                                     class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                                    href="product/store"
+                                    href="product/listing"
                                     >About Us</a
                                 >
                             </li>
@@ -309,7 +309,7 @@
         <div class="container w-full h-full my-20">
             <div class="mx-auto items-center flex-row w-full lg:w-1/2 xl:w-5/12">
                 <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-                    <form method="POST" action="/product/store" enctype="multipart/form-data">
+                    <form method="POST" action="product/store" enctype="multipart/form-data">
                         @csrf <!-- {{ csrf_field() }} -->
                         <div class="mb-5 form-control">
                             <label
