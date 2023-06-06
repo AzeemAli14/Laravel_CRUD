@@ -23,7 +23,7 @@
                             </a>
                         </div>
 
-                        <div class="mt-8 text-center">
+                        <div class="mt-3 text-center">
                             <img
                                 src="https://avatars.githubusercontent.com/u/35036926?v=4"
                                 alt=""
@@ -39,7 +39,7 @@
                             >
                         </div>
 
-                        <ul class="space-y-2 tracking-wide mt-8">
+                        <ul class="space-y-2 tracking-wide mt-6">
                             <li>
                                 <a
                                     href="#"
@@ -179,7 +179,47 @@
                     </div>
 
                     <div
-                        class="px-6 -mx-6 pt-4 flex justify-between items-center border-t"
+                        class="px-6 -mx-6 pt-5 flex justify-between items-center border-t"
+                    >
+                        <button
+                            class="px-4 py-3 w-56 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-orange-600 to-rose-400"
+                        >
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                        fill="none" viewBox="0 0 24 24" 
+                        stroke-width="1.5"
+                        stroke="currentColor" 
+                        class="w-6 h-6">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+                        </svg>
+
+                            <a href="auth/login" class="group-hover:text-gray-700"
+                                >Sign In</a>
+                        </button>
+                        
+                    </div>
+                    <div
+                        class="px-6 -mx-6 flex justify-between items-center"
+                    >
+                        <button
+                            class="px-4 py-3 w-56 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-orange-600 to-rose-400"
+                        >
+                        <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        fill="none" viewBox="0 0 24 24" 
+                        stroke-width="1.5" 
+                        stroke="currentColor" 
+                        class="w-6 h-6">
+                            <path stroke-linecap="round" 
+                            stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+
+                            <a href="auth/register" class="group-hover:text-gray-700"
+                                >Sign up</a>
+                        </button>
+                        
+                    </div>
+                    <!-- <div
+                        class="px-6 -mx-6 pt- flex justify-between items-center"
                     >
                         <button
                             class="px-4 py-3 w-56 flex items-center space-x-4 rounded-md shadow-xl bg-white text-gray-600 group hover:bg-gradient-to-r from-orange-600 to-rose-400"
@@ -202,7 +242,8 @@
                                 >Logout</span
                             >
                         </button>
-                    </div>
+                        
+                    </div> -->
                 </aside>
 
                 <div class="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
