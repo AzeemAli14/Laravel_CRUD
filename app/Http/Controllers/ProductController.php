@@ -28,7 +28,7 @@ class ProductController extends Controller
         $request->validate([
             'name' => 'required',
             'description' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:24574',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg,png|max:24574',
         ]);
 
         //Enteries Upload
